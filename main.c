@@ -33,6 +33,7 @@ int main(int argc, char** argv) {
 
     printf("MATRÍCULA: 2019204050\n");
     delay(1000); //espera 2 segundos
+    clrscr();
 
     float A1, A2, A3, A4, N1;
     printf("Digite a Nota da Atividade 1: ");
@@ -46,6 +47,7 @@ int main(int argc, char** argv) {
 
     printf("Digite a Nota da Atividade 4: ");
     scanf("%f", &A4);
+    clrscr();
 
     printf("As notas declaradas foram %.2f, %.2f, %.2f e %.2f\n", A1, A2, A3, A4);
     N1 = (A1 + A2 + A3 + A4) / 4;
@@ -56,7 +58,7 @@ int main(int argc, char** argv) {
         printf("Nota N1 do aluno: %.2f\n", N1);
         printf("Aluno Reprovado!\n");
     }
-    system("PAUSE");
+
     return (EXIT_SUCCESS);
 }
 
