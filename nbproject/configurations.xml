@@ -4,6 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Arquivos de Cabeçalho"
                    projectFiles="true">
+      <itemPath>menu.h</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Arquivos de Código-Fonte"
@@ -38,6 +39,8 @@
       </compileType>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="menu.h" ex="false" tool="3" flavor2="0">
+      </item>
     </conf>
     <conf name="Release" type="1">
       <toolsSet>
@@ -60,6 +63,8 @@
         </asmTool>
       </compileType>
       <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menu.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>
