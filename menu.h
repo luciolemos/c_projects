@@ -5,7 +5,7 @@
 
 #include <string.h>
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h> /*Necessária para a função return().*/
 #include <gconio.h> /*Necessária para as funções: clrscr(), gotoxy(),  delay()*/
 
 #endif /* MENU_H */
